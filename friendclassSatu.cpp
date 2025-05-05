@@ -22,4 +22,8 @@ using namespace std;
         void setId(int pId);
         void displayall(orang &a);
     };
-    
+
+    void siswa::displayall(orang &a)
+    {
+        cout<< id << endl << a.nama;
+    }
